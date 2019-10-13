@@ -1,0 +1,82 @@
+.ml11 {
+  font-weight: 700;
+  font-size: 3.5em;
+}
+
+.ml11 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml11 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: #fff;
+  transform-origin: 0 50%;
+}
+
+.ml11 .line1 {
+  top: 0;
+  left: 0;
+}
+
+.ml11 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.line {
+  color: black;
+}
+
+/* Parte Dos */
+
+.had {
+  color: #d44b15;
+  text-align: center;
+  background-color: #ffffff;
+  font-size: 1em;
+  font-family: Lato, serif;
+}
+
+.had-r1 {
+  line-height: 1em;
+  font-size: 7em;
+  font-weight: 100;
+}
+
+.nombre {
+  line-height: 1em;
+  font-size: 1em;
+  font-weight: 100;
+  font-weight: 700;
+  color: #d44b15;
+  align-self: center;
+  font-size: xx-large;
+}
+
+.nombre:hover {
+  font-size: 40px;
+  font-size-adjust: 50px;
+}
+
+.contact-info {
+  color: rgb(166, 166, 166);
+  font-size: x-large;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+.had-amp {
+  color: wheat;
+  font-size: 3em;
+  font-style: italic;
+  vertical-align: bottom;
+  margin: 0 -0.3em;
+}
