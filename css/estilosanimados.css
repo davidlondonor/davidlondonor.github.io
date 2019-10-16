@@ -43,6 +43,8 @@
   background-color: #ffffff;
   font-size: 1em;
   font-family: Lato, serif;
+  position: relative;
+  z-index: 99;
 }
 
 .had-r1 {
