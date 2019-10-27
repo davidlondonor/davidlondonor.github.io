@@ -14,6 +14,26 @@ body {
 
 a {
   text-decoration: none;
+  color: tomato;
+}
+
+li.Menu-item {
+  text-decoration: none;
+}
+
+.image {
+  border: 10px solid rgb(253, 72, 0);
+  /* display: flex; */
+  /* width: 1200vh; */
+  /* height: 100vh; */
+  padding: 500px;
+  background-image: url("https://i.ibb.co/7gWZNTP/GODOavRg.jpg");
+  background-repeat: no-repeat;
+  /* background-size: auto; */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #particles-js {
@@ -32,9 +52,13 @@ h1::before {
   color: gray;
   text-align: center;
 }
+
 .header {
   outline: 1 solid rgb(255, 225, 0);
-  height: 5rem;
+  height: 7rem;
+  width: 70%;
+  display: flex;
+  justify-content: center;
 }
 /* .container {
   display: flex;
@@ -201,6 +225,9 @@ h1::before {
   color: red;
   justify-content: center;
   align-items: center;
+}
+.titulo-categoria {
+  color: red;
 }
 /* .some-page-wrapper {
   display: flex;
